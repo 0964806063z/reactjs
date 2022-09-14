@@ -1,0 +1,63 @@
+.container{
+  max-width: 80%;
+  width: 1000px;
+  margin: 0 auto;
+}
+.github-profile{
+  display: flex;
+  margin-top: 20px;
+  
+}
+.github-profile img{
+  margin-right: 20px;
+  max-width: 100px;
+}
+.github-profile .name{
+  font-weight: 700;
+  font-size: 20px;
+}
+.github-form{
+  display: flex;
+}
+.github-form input{
+  margin: 0;
+}
+.game{
+  margin-top: 30px;
+}
+.game .body{
+  display: flex;
+  margin: 10px 0;
+}
+.left,.right{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.right .number,
+.left .star{
+  flex: 0 0 33.33%;
+  height: 40px;
+}
+button{
+  padding: 10px;
+  border: 1px solid #000;
+}
+.left .star{max-width: 60px; }
+.star::before{
+  content: '★ ';
+  font-size: 30px;
+}
+.star-status{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+input{
+  border: 1px solid #000;
+}
+.text-center{
+  text-align: center;
+}
