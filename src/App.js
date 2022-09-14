@@ -1,10 +1,10 @@
 
-import './App.css';
+import './styles/App.css';
 import React, { Component } from 'react';
-import FirstHook from './ex/firsthook';
-import FirstOne from './ex/first-one-way';
-import CardsApp from './ex/github-card';
-import StarGame from './ex/star-game';
+import FirstHook from './components/firsthook';
+import FirstOne from './components/first-one-way';
+import CardsApp from './components/github-card';
+import StarGame from './components/star-game';
 function App() {
   return (
     <div className="">
